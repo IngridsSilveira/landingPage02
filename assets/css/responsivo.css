@@ -1,18 +1,35 @@
 @media screen and (min-width: 0) {
   .conteudo {
-    flex-direction: column-reverse;
+    flex-direction: column;
+    width: auto;
   }
   .img_celular {
-    display: none;
+    width: 80%;
+    height: auto;
+    transform: rotate(333deg);
   }
   .img-links {
     width: 150px;
+  }
+  .img-texto {
+    display: block;
+  }
+  .imagem-celular {
+    width: 90%;
+  }
+  .btns_link {
+    width: 50%;
+  }
+  .rodape {
+    flex-direction: column;
+    height: auto;
   }
 }
 
 @media screen and (min-width: 768px) {
   .conteudo {
     flex-direction: row;
+    width: 800px;
   }
   .textosBotoes {
     width: 90%;
@@ -20,7 +37,7 @@
   .descricao {
     line-height: 20px;
     width: 370px;
-}
+  }
   .img-links {
     width: 40%;
   }
@@ -28,8 +45,21 @@
     max-width: 100%;
     display: block;
   }
+  .img-texto {
+    display: flex;
+    width: 100%;
+  }
+  .imagem-celular {
+    width: 50%;
+  }
+  .btns_link {
+    width: 20%;
+    margin-bottom: 50px;
+  }
+  .rodape {
+    flex-direction: row;
+    height: 80px;
+  }
 }
-
 @media screen and (min-width: 992px) {
-  
 }
