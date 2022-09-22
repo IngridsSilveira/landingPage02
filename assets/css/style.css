@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
 }
+/* PARTE INICIAL */
 .bg {
     background: linear-gradient(to right, #A7CDBD 80%, #BBE1C3 100%);
     width: 100%;
@@ -16,16 +17,15 @@
 }
 .container {
     display: flex;
-    align-items: center;
-    justify-items: center;
-    margin-right: 0;
+    justify-content: center;
 }
-.texto_botoes {
+.conteudo {
     display: flex;
-    flex-direction: column;
+    align-items: center;
+    width: 800px;
 }
 .textos {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #5c5c5c;
 }
 .titulo {
@@ -33,14 +33,7 @@
     font-weight: 600;
     letter-spacing: 2px;
 }
-.descricao {
-    line-height: 20px;
-    width: 40%;
-}
-.img-links {
-    width: 20%;
-}
-.img-cellphone {
-    width: 100%;
-    margin-left: -450px;
+.botoes {
+    display: flex;
+    flex-direction: column;
 }

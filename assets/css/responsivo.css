@@ -1,0 +1,35 @@
+@media screen and (min-width: 0) {
+  .conteudo {
+    flex-direction: column-reverse;
+  }
+  .img_celular {
+    display: none;
+  }
+  .img-links {
+    width: 150px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .conteudo {
+    flex-direction: row;
+  }
+  .textosBotoes {
+    width: 90%;
+  }
+  .descricao {
+    line-height: 20px;
+    width: 370px;
+}
+  .img-links {
+    width: 40%;
+  }
+  .img_celular {
+    max-width: 100%;
+    display: block;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  
+}
