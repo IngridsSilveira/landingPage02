@@ -7,7 +7,7 @@
 }
 /* PARTE INICIAL */
 .bg {
-    background: linear-gradient(to right, #A7CDBD 80%, #BBE1C3 100%);
+    background: linear-gradient(to right, #A7CDBD 70%, #BBE1C3 100%);
 }
 .navbar-brand {
     font-family: 'Reem Kufi Fun', sans-serif;
@@ -17,48 +17,47 @@
     display: flex;
     justify-content: center;
 }
-.conteudo {
+.content-initial__conteudo {
     display: flex;
     align-items: center;
 }
-.textos {
+.content-initial__align-text {
     margin-bottom: 20px;
     color: #5c5c5c;
 }
-.titulo {
+.content-initial__title {
     font-family: 'Reem Kufi Fun', sans-serif;
     font-weight: 600;
     letter-spacing: 2px;
 }
-.botoes {
+.content-initial__button {
     display: flex;
     flex-direction: column;
-
 }
-.img-links,
+.content-initial__button-btns,
 .btn-img {
     animation: pulse 1.5s infinite;
     margin-top: 5px;
 }
 /*SEGUNDA PARTE */
-.txt {
+.content-initial__align-txt {
     display: flex;
     justify-content: center;
     flex-direction: column;
     width: 250px;
 }
-.txt-titulo {
+.content-initial__align-txt-titulo {
     margin: 10px 0;
     color: #709082;
     font-weight: bold;
     font-family: 'Reem Kufi Fun', sans-serif;
 }
-.btns_img {
+.content-initial__align-button {
     width: 100%;
     display: flex;
     justify-content: center;
 }
-.btn-img {
+.content-initial__align-button-img {
     width: 90%;
 }
 .rodape {

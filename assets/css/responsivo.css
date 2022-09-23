@@ -2,28 +2,28 @@
   .bg {
     height: 95vh;
   }
-  .conteudo {
+  .content-initial__conteudo {
     flex-direction: column;
     width: auto;
   }
-  .img_celular {
+  .content-initial__img-phone-inclined{
     width: 80%;
     height: auto;
     transform: rotate(333deg);
   }
-  .img-links {
+  .content-initial__button-btns {
     width: 150px;
   }
-  .img-texto {
+  .content-initial__conteudo-img-text{
     display: block;
   }
-  .img-texto {
+  .content-initial__conteudo-img-text{
     flex-direction: column;
   }
-  .imagem-celular {
+  .content-initial__img-phone {
     width: 50%;
   }
-  .btns_link {
+  .content-initial__align-button-links {
     width: 50%;
   }
   .rodape {
@@ -39,32 +39,32 @@
   .bg {
     height: 100vh;
   }
-  .conteudo {
+  .content-initial__conteudo {
     flex-direction: row;
     width: auto;
   }
-  .descricao {
+  .content-initial__description {
     line-height: 20px;
     width: auto;
   }
-  .img-links {
+  .content-initial__button-btns {
     width: 40%;
   }
-  .img_celular {
+  .content-initial__img-phone-inclined{
     max-width: 100%;
     display: block;
   }
-  .img-texto {
+  .content-initial__conteudo-img-text{
     display: flex;
     width: 100%;
   }
-  .img-texto {
+  .content-initial__conteudo-img-text{
     flex-direction: row;
   }
-  .imagem-celular {
+  .content-initial__img-phone {
     width: 50%;
   }
-  .btns_link {
+  .content-initial__align-button-links {
     width: 20%;
     margin-bottom: 50px;
   }
@@ -80,19 +80,19 @@
   .bg {
     width: 100%;
   }
-  .img_celular {
+  .content-initial__img-phone-inclined{
     max-width: 85%;
   }
-  .img-links {
+  .content-initial__button-btns {
     width: 25%;
   }
-  .img-texto {
+  .content-initial__conteudo-img-text{
     display: flex;
   }
-  .imagem-celular {
+  .content-initial__img-phone {
     width: 45%;
   }
-  .btns_link {
+  .content-initial__align-button-links {
     width: 15%;
   }
   .rodape {
