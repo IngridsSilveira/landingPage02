@@ -75,21 +75,7 @@
     margin-top: 10px;
   }
 }
-@media screen and (min-width: 780px) and (max-width: 992px) {
-  .bg {
-  }
-  .conteudo {
-    flex-direction: row;
-    width: 800px;
-  }
-  .descricao {
-    line-height: 20px;
-    width: 370px;
-  }
-  .textosBotoes {
-    width: 90%;
-  }
-}
+
 @media screen and (min-width: 994px) and (max-width: 1375px) {
   .bg {
     width: 100%;
