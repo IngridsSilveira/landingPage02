@@ -8,8 +8,6 @@
 /* PARTE INICIAL */
 .bg {
     background: linear-gradient(to right, #A7CDBD 80%, #BBE1C3 100%);
-    width: 100%;
-    height: 100vh;
 }
 .navbar-brand {
     font-family: 'Reem Kufi Fun', sans-serif;
@@ -22,7 +20,6 @@
 .conteudo {
     display: flex;
     align-items: center;
-    order: 3;
 }
 .textos {
     margin-bottom: 20px;
@@ -36,6 +33,12 @@
 .botoes {
     display: flex;
     flex-direction: column;
+
+}
+.img-links,
+.btn-img {
+    animation: pulse 1.5s infinite;
+    margin-top: 5px;
 }
 /*SEGUNDA PARTE */
 .txt {
@@ -68,7 +71,6 @@
 }
 .copyright {
     font-size: 16px;
-    margin-top: 5px;
     color: #5c5c5c;
 }
 .links {
@@ -83,4 +85,15 @@
 }
 .icons {
     margin-left: 5px;
+}
+/*ANIMAÇÃO */
+@keyframes pulse {
+    0% {
+        transform: scale(1.1);
+        filter: brightness(100%);
+    }
+    100% {
+        transform: scale(1.1);
+        filter: brightness(200%);
+    }
 }

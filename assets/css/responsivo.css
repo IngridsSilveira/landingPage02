@@ -1,4 +1,7 @@
-@media screen and (min-width: 0) {
+@media screen and (min-width: 0) and (max-width: 500px) {
+  .bg {
+    height: 95vh;
+  }
   .conteudo {
     flex-direction: column;
     width: auto;
@@ -14,8 +17,11 @@
   .img-texto {
     display: block;
   }
+  .img-texto {
+    flex-direction: column;
+  }
   .imagem-celular {
-    width: 90%;
+    width: 50%;
   }
   .btns_link {
     width: 50%;
@@ -24,19 +30,22 @@
     flex-direction: column;
     height: auto;
   }
+  .copyright {
+    margin-top: 9px;
+  }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 501px) and (max-width: 992px) {
+  .bg {
+    height: 100vh;
+  }
   .conteudo {
     flex-direction: row;
-    width: 800px;
-  }
-  .textosBotoes {
-    width: 90%;
+    width: auto;
   }
   .descricao {
     line-height: 20px;
-    width: 370px;
+    width: auto;
   }
   .img-links {
     width: 40%;
@@ -49,6 +58,9 @@
     display: flex;
     width: 100%;
   }
+  .img-texto {
+    flex-direction: row;
+  }
   .imagem-celular {
     width: 50%;
   }
@@ -57,9 +69,49 @@
     margin-bottom: 50px;
   }
   .rodape {
+    display: block;
+  }
+  .copyright {
+    margin-top: 10px;
+  }
+}
+@media screen and (min-width: 780px) and (max-width: 992px) {
+  .bg {
+  }
+  .conteudo {
+    flex-direction: row;
+    width: 800px;
+  }
+  .descricao {
+    line-height: 20px;
+    width: 370px;
+  }
+  .textosBotoes {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 994px) and (max-width: 1375px) {
+  .bg {
+    width: 100%;
+  }
+  .img_celular {
+    max-width: 85%;
+  }
+  .img-links {
+    width: 25%;
+  }
+  .img-texto {
+    display: flex;
+  }
+  .imagem-celular {
+    width: 45%;
+  }
+  .btns_link {
+    width: 15%;
+  }
+  .rodape {
+    display: flex;
     flex-direction: row;
     height: 80px;
   }
-}
-@media screen and (min-width: 992px) {
 }
